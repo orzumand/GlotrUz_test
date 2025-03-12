@@ -76,6 +76,12 @@ a.border {
   justify-content: center;
   margin-top: 8px;
 }
+
+.button-primary:active,
+.button-secondary:active,
+.button-cancel:active {
+  transform: scale(0.98);
+}
 .more {
   font-size: 13px;
   font-weight: 500;

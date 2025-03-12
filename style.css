@@ -89,7 +89,7 @@ a.border {
 }
 /* ---------------------------------------- */
 body {
-  background-color: bisque;
+  background-color: var(--bg-color);
 }
 .wrapper {
   max-width: 375px;

@@ -98,7 +98,8 @@ body {
   background-color: var(--bg-color);
 }
 .wrapper {
-  max-width: 375px;
+  max-width: 410px;
+  min-width: 375px;
   width: 100%;
   background-color: var(--bg-color);
   margin: 0 auto;
@@ -237,7 +238,7 @@ nav > a {
 }
 .product-details > .flex-box {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
   margin-top: 16px;
 }
 /* product-details section end */
@@ -346,6 +347,7 @@ nav > a {
 .other-products > .products {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
   gap: 10px;
 }
 .other-products > .products > .card {
